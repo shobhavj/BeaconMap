@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "bed560d67685f1bfc09cf44e49744093"
+build_time: [1507917861, 993987000]
+inputs:
+  "/Users/shobhavj/Documents/HelloIndoor/HelloIndoor/ViewController.swift": [1507739117, 0]
+  "/Users/shobhavj/Documents/HelloIndoor/HelloIndoor/AppDelegate.swift": [1507664326, 0]

@@ -1,0 +1,1225 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "11HelloIndoor14ViewControllerC"
+provides-member:
+- ["11HelloIndoor14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "indoorLocationManager"
+- "locationView"
+- "positionImage"
+- "positionView"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "EILIndoorLocationManager"
+- "EILIndoorLocationManagerDelegate"
+- "EILIndoorLocationView"
+- "EILLocation"
+- "EILOrientedPoint"
+- "EILPositionAccuracy"
+- !private "EILRequestFetchLocation"
+- !private "ESTConfig"
+- !private "NSError"
+- !private "String"
+- !private "StringLiteralType"
+- !private "UIColor"
+- "UIImageView"
+- "UIView"
+- "UIViewController"
+- "ViewController"
+- !private "print"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "doorColor"]
+- !private ["So15CALayerDelegateP", "doorThickness"]
+- !private ["So15CALayerDelegateP", "drawLocation"]
+- !private ["So15CALayerDelegateP", "locationBorderColor"]
+- !private ["So15CALayerDelegateP", "locationBorderThickness"]
+- !private ["So15CALayerDelegateP", "rotateOnPositionUpdate"]
+- !private ["So15CALayerDelegateP", "showTrace"]
+- !private ["So15CALayerDelegateP", "traceColor"]
+- !private ["So15CALayerDelegateP", "traceThickness"]
+- !private ["So15CALayerDelegateP", "updatePosition"]
+- ["s7CVarArgP", "EILIndoorLocationManager"]
+- !private ["s7CVarArgP", "EILRequestFetchLocation"]
+- !private ["s7CVarArgP", "ESTConfig"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "doorColor"]
+- !private ["s7CVarArgP", "doorThickness"]
+- !private ["s7CVarArgP", "drawLocation"]
+- !private ["s7CVarArgP", "green"]
+- ["s7CVarArgP", "indoorLocationManager"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "location"]
+- !private ["s7CVarArgP", "locationBorderColor"]
+- !private ["s7CVarArgP", "locationBorderThickness"]
+- !private ["s7CVarArgP", "locationManager"]
+- !private ["s7CVarArgP", "locationView"]
+- !private ["s7CVarArgP", "orientation"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "red"]
+- !private ["s7CVarArgP", "rotateOnPositionUpdate"]
+- !private ["s7CVarArgP", "sendRequest"]
+- !private ["s7CVarArgP", "setupAppID"]
+- !private ["s7CVarArgP", "showTrace"]
+- !private ["s7CVarArgP", "startPositionUpdates"]
+- !private ["s7CVarArgP", "traceColor"]
+- !private ["s7CVarArgP", "traceThickness"]
+- !private ["s7CVarArgP", "updatePosition"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "x"]
+- !private ["s7CVarArgP", "y"]
+- !private ["s7CVarArgP", "yellow"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "EILIndoorLocationManager"]
+- !private ["s28CustomDebugStringConvertibleP", "EILRequestFetchLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "ESTConfig"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "doorColor"]
+- !private ["s28CustomDebugStringConvertibleP", "doorThickness"]
+- !private ["s28CustomDebugStringConvertibleP", "drawLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "green"]
+- ["s28CustomDebugStringConvertibleP", "indoorLocationManager"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "location"]
+- !private ["s28CustomDebugStringConvertibleP", "locationBorderColor"]
+- !private ["s28CustomDebugStringConvertibleP", "locationBorderThickness"]
+- !private ["s28CustomDebugStringConvertibleP", "locationManager"]
+- !private ["s28CustomDebugStringConvertibleP", "locationView"]
+- !private ["s28CustomDebugStringConvertibleP", "orientation"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "red"]
+- !private ["s28CustomDebugStringConvertibleP", "rotateOnPositionUpdate"]
+- !private ["s28CustomDebugStringConvertibleP", "sendRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "setupAppID"]
+- !private ["s28CustomDebugStringConvertibleP", "showTrace"]
+- !private ["s28CustomDebugStringConvertibleP", "startPositionUpdates"]
+- !private ["s28CustomDebugStringConvertibleP", "traceColor"]
+- !private ["s28CustomDebugStringConvertibleP", "traceThickness"]
+- !private ["s28CustomDebugStringConvertibleP", "updatePosition"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s28CustomDebugStringConvertibleP", "yellow"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "EILIndoorLocationManager"]
+- !private ["s23CustomStringConvertibleP", "EILRequestFetchLocation"]
+- !private ["s23CustomStringConvertibleP", "ESTConfig"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "doorColor"]
+- !private ["s23CustomStringConvertibleP", "doorThickness"]
+- !private ["s23CustomStringConvertibleP", "drawLocation"]
+- !private ["s23CustomStringConvertibleP", "green"]
+- ["s23CustomStringConvertibleP", "indoorLocationManager"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "location"]
+- !private ["s23CustomStringConvertibleP", "locationBorderColor"]
+- !private ["s23CustomStringConvertibleP", "locationBorderThickness"]
+- !private ["s23CustomStringConvertibleP", "locationManager"]
+- !private ["s23CustomStringConvertibleP", "locationView"]
+- !private ["s23CustomStringConvertibleP", "orientation"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "red"]
+- !private ["s23CustomStringConvertibleP", "rotateOnPositionUpdate"]
+- !private ["s23CustomStringConvertibleP", "sendRequest"]
+- !private ["s23CustomStringConvertibleP", "setupAppID"]
+- !private ["s23CustomStringConvertibleP", "showTrace"]
+- !private ["s23CustomStringConvertibleP", "startPositionUpdates"]
+- !private ["s23CustomStringConvertibleP", "traceColor"]
+- !private ["s23CustomStringConvertibleP", "traceThickness"]
+- !private ["s23CustomStringConvertibleP", "updatePosition"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "x"]
+- !private ["s23CustomStringConvertibleP", "y"]
+- !private ["s23CustomStringConvertibleP", "yellow"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["So24EILIndoorLocationManagerC", "delegate"]
+- ["So24EILIndoorLocationManagerC", "init"]
+- !private ["So24EILIndoorLocationManagerC", "startPositionUpdates"]
+- ["So32EILIndoorLocationManagerDelegateP", "EILIndoorLocationManager"]
+- !private ["So32EILIndoorLocationManagerDelegateP", "EILRequestFetchLocation"]
+- !private ["So32EILIndoorLocationManagerDelegateP", "ESTConfig"]
+- !private ["So32EILIndoorLocationManagerDelegateP", "String"]
+- !private ["So32EILIndoorLocationManagerDelegateP", "UIColor"]
+- ["So32EILIndoorLocationManagerDelegateP", "indoorLocationManager"]
+- !private ["So32EILIndoorLocationManagerDelegateP", "location"]
+- !private ["So32EILIndoorLocationManagerDelegateP", "locationManager"]
+- !private ["So32EILIndoorLocationManagerDelegateP", "locationView"]
+- !private ["So32EILIndoorLocationManagerDelegateP", "print"]
+- ["So32EILIndoorLocationManagerDelegateP", ""]
+- !private ["So21EILIndoorLocationViewC", "doorColor"]
+- !private ["So21EILIndoorLocationViewC", "doorThickness"]
+- !private ["So21EILIndoorLocationViewC", "drawLocation"]
+- !private ["So21EILIndoorLocationViewC", "locationBorderColor"]
+- !private ["So21EILIndoorLocationViewC", "locationBorderThickness"]
+- !private ["So21EILIndoorLocationViewC", "rotateOnPositionUpdate"]
+- !private ["So21EILIndoorLocationViewC", "showTrace"]
+- !private ["So21EILIndoorLocationViewC", "traceColor"]
+- !private ["So21EILIndoorLocationViewC", "traceThickness"]
+- !private ["So21EILIndoorLocationViewC", "updatePosition"]
+- !private ["So16EILOrientedPointC", "orientation"]
+- !private ["So16EILOrientedPointC", "x"]
+- !private ["So16EILOrientedPointC", "y"]
+- !private ["So8EILPointC", "orientation"]
+- !private ["So8EILPointC", "x"]
+- !private ["So8EILPointC", "y"]
+- ["SC19EILPositionAccuracyO", "high"]
+- ["SC19EILPositionAccuracyO", "low"]
+- ["SC19EILPositionAccuracyO", "medium"]
+- ["SC19EILPositionAccuracyO", "unknown"]
+- ["SC19EILPositionAccuracyO", "veryHigh"]
+- ["SC19EILPositionAccuracyO", "veryLow"]
+- !private ["So23EILRequestFetchLocationC", "init"]
+- !private ["So23EILRequestFetchLocationC", "sendRequest"]
+- !private ["So9ESTConfigC", "setupAppID"]
+- !private ["So14ESTRequestBaseC", "init"]
+- !private ["So14ESTRequestBaseC", "sendRequest"]
+- !private ["So17ESTRequestGetJSONC", "init"]
+- !private ["So17ESTRequestGetJSONC", "sendRequest"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- ["s9EquatableP", "EILIndoorLocationManager"]
+- !private ["s9EquatableP", "EILRequestFetchLocation"]
+- !private ["s9EquatableP", "ESTConfig"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "doorColor"]
+- !private ["s9EquatableP", "doorThickness"]
+- !private ["s9EquatableP", "drawLocation"]
+- !private ["s9EquatableP", "green"]
+- ["s9EquatableP", "high"]
+- ["s9EquatableP", "indoorLocationManager"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "location"]
+- !private ["s9EquatableP", "locationBorderColor"]
+- !private ["s9EquatableP", "locationBorderThickness"]
+- !private ["s9EquatableP", "locationManager"]
+- !private ["s9EquatableP", "locationView"]
+- ["s9EquatableP", "low"]
+- ["s9EquatableP", "medium"]
+- !private ["s9EquatableP", "orientation"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "red"]
+- !private ["s9EquatableP", "rotateOnPositionUpdate"]
+- !private ["s9EquatableP", "sendRequest"]
+- !private ["s9EquatableP", "setupAppID"]
+- !private ["s9EquatableP", "showTrace"]
+- !private ["s9EquatableP", "startPositionUpdates"]
+- !private ["s9EquatableP", "traceColor"]
+- !private ["s9EquatableP", "traceThickness"]
+- ["s9EquatableP", "unknown"]
+- !private ["s9EquatableP", "updatePosition"]
+- ["s9EquatableP", "veryHigh"]
+- ["s9EquatableP", "veryLow"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "x"]
+- !private ["s9EquatableP", "y"]
+- !private ["s9EquatableP", "yellow"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "EILIndoorLocationManager"]
+- !private ["s8HashableP", "EILRequestFetchLocation"]
+- !private ["s8HashableP", "ESTConfig"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "doorColor"]
+- !private ["s8HashableP", "doorThickness"]
+- !private ["s8HashableP", "drawLocation"]
+- !private ["s8HashableP", "green"]
+- ["s8HashableP", "high"]
+- ["s8HashableP", "indoorLocationManager"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "location"]
+- !private ["s8HashableP", "locationBorderColor"]
+- !private ["s8HashableP", "locationBorderThickness"]
+- !private ["s8HashableP", "locationManager"]
+- !private ["s8HashableP", "locationView"]
+- ["s8HashableP", "low"]
+- ["s8HashableP", "medium"]
+- !private ["s8HashableP", "orientation"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "red"]
+- !private ["s8HashableP", "rotateOnPositionUpdate"]
+- !private ["s8HashableP", "sendRequest"]
+- !private ["s8HashableP", "setupAppID"]
+- !private ["s8HashableP", "showTrace"]
+- !private ["s8HashableP", "startPositionUpdates"]
+- !private ["s8HashableP", "traceColor"]
+- !private ["s8HashableP", "traceThickness"]
+- ["s8HashableP", "unknown"]
+- !private ["s8HashableP", "updatePosition"]
+- ["s8HashableP", "veryHigh"]
+- ["s8HashableP", "veryLow"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "x"]
+- !private ["s8HashableP", "y"]
+- !private ["s8HashableP", "yellow"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", "EILIndoorLocationManager"]
+- !private ["So8NSCodingP", "EILRequestFetchLocation"]
+- !private ["So8NSCodingP", "ESTConfig"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "doorColor"]
+- !private ["So8NSCodingP", "doorThickness"]
+- !private ["So8NSCodingP", "drawLocation"]
+- !private ["So8NSCodingP", "green"]
+- ["So8NSCodingP", "indoorLocationManager"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "location"]
+- !private ["So8NSCodingP", "locationBorderColor"]
+- !private ["So8NSCodingP", "locationBorderThickness"]
+- !private ["So8NSCodingP", "locationManager"]
+- !private ["So8NSCodingP", "locationView"]
+- !private ["So8NSCodingP", "orientation"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "red"]
+- !private ["So8NSCodingP", "rotateOnPositionUpdate"]
+- !private ["So8NSCodingP", "showTrace"]
+- !private ["So8NSCodingP", "traceColor"]
+- !private ["So8NSCodingP", "traceThickness"]
+- !private ["So8NSCodingP", "updatePosition"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "x"]
+- !private ["So8NSCodingP", "y"]
+- !private ["So8NSCodingP", "yellow"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "green"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "orientation"]
+- !private ["So9NSCopyingP", "red"]
+- !private ["So9NSCopyingP", "x"]
+- !private ["So9NSCopyingP", "y"]
+- !private ["So9NSCopyingP", "yellow"]
+- ["So26NSExtensionRequestHandlingP", "EILIndoorLocationManager"]
+- !private ["So26NSExtensionRequestHandlingP", "EILRequestFetchLocation"]
+- !private ["So26NSExtensionRequestHandlingP", "ESTConfig"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "UIColor"]
+- ["So26NSExtensionRequestHandlingP", "indoorLocationManager"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "location"]
+- !private ["So26NSExtensionRequestHandlingP", "locationManager"]
+- !private ["So26NSExtensionRequestHandlingP", "locationView"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "green"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "red"]
+- !private ["So21NSItemProviderReadingP", "yellow"]
+- !private ["So21NSItemProviderWritingP", "green"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "red"]
+- !private ["So21NSItemProviderWritingP", "yellow"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "EILIndoorLocationManager"]
+- ["So8NSObjectC", "EILIndoorLocationView"]
+- ["So8NSObjectC", "EILLocation"]
+- ["So8NSObjectC", "EILOrientedPoint"]
+- ["So8NSObjectC", "EILPositionAccuracy"]
+- !private ["So8NSObjectC", "EILRequestFetchLocation"]
+- !private ["So8NSObjectC", "ESTConfig"]
+- !private ["So8NSObjectC", "NSError"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "doorColor"]
+- !private ["So8NSObjectC", "doorThickness"]
+- !private ["So8NSObjectC", "drawLocation"]
+- !private ["So8NSObjectC", "green"]
+- ["So8NSObjectC", "indoorLocationManager"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "location"]
+- !private ["So8NSObjectC", "locationBorderColor"]
+- !private ["So8NSObjectC", "locationBorderThickness"]
+- ["So8NSObjectC", "locationManager"]
+- ["So8NSObjectC", "locationView"]
+- !private ["So8NSObjectC", "orientation"]
+- ["So8NSObjectC", "positionImage"]
+- ["So8NSObjectC", "positionView"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "red"]
+- !private ["So8NSObjectC", "rotateOnPositionUpdate"]
+- !private ["So8NSObjectC", "sendRequest"]
+- !private ["So8NSObjectC", "setupAppID"]
+- !private ["So8NSObjectC", "showTrace"]
+- !private ["So8NSObjectC", "startPositionUpdates"]
+- !private ["So8NSObjectC", "traceColor"]
+- !private ["So8NSObjectC", "traceThickness"]
+- !private ["So8NSObjectC", "updatePosition"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "x"]
+- !private ["So8NSObjectC", "y"]
+- !private ["So8NSObjectC", "yellow"]
+- ["So16NSObjectProtocolP", "EILIndoorLocationManager"]
+- !private ["So16NSObjectProtocolP", "EILRequestFetchLocation"]
+- !private ["So16NSObjectProtocolP", "ESTConfig"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "doorColor"]
+- !private ["So16NSObjectProtocolP", "doorThickness"]
+- !private ["So16NSObjectProtocolP", "drawLocation"]
+- !private ["So16NSObjectProtocolP", "green"]
+- ["So16NSObjectProtocolP", "indoorLocationManager"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "location"]
+- !private ["So16NSObjectProtocolP", "locationBorderColor"]
+- !private ["So16NSObjectProtocolP", "locationBorderThickness"]
+- !private ["So16NSObjectProtocolP", "locationManager"]
+- !private ["So16NSObjectProtocolP", "locationView"]
+- !private ["So16NSObjectProtocolP", "orientation"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "red"]
+- !private ["So16NSObjectProtocolP", "rotateOnPositionUpdate"]
+- !private ["So16NSObjectProtocolP", "sendRequest"]
+- !private ["So16NSObjectProtocolP", "setupAppID"]
+- !private ["So16NSObjectProtocolP", "showTrace"]
+- !private ["So16NSObjectProtocolP", "startPositionUpdates"]
+- !private ["So16NSObjectProtocolP", "traceColor"]
+- !private ["So16NSObjectProtocolP", "traceThickness"]
+- !private ["So16NSObjectProtocolP", "updatePosition"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "x"]
+- !private ["So16NSObjectProtocolP", "y"]
+- !private ["So16NSObjectProtocolP", "yellow"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "green"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "red"]
+- !private ["So14NSSecureCodingP", "yellow"]
+- !private ["So8NSStringC", "init"]
+- !private ["So27NSURLConnectionDataDelegateP", "init"]
+- !private ["So27NSURLConnectionDataDelegateP", "sendRequest"]
+- !private ["So23NSURLConnectionDelegateP", "init"]
+- !private ["So23NSURLConnectionDelegateP", "sendRequest"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "high"]
+- ["s16RawRepresentableP", "low"]
+- ["s16RawRepresentableP", "medium"]
+- ["s16RawRepresentableP", "unknown"]
+- ["s16RawRepresentableP", "veryHigh"]
+- ["s16RawRepresentableP", "veryLow"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "doorColor"]
+- !private ["So29UIAccessibilityIdentificationP", "doorThickness"]
+- !private ["So29UIAccessibilityIdentificationP", "drawLocation"]
+- !private ["So29UIAccessibilityIdentificationP", "locationBorderColor"]
+- !private ["So29UIAccessibilityIdentificationP", "locationBorderThickness"]
+- !private ["So29UIAccessibilityIdentificationP", "rotateOnPositionUpdate"]
+- !private ["So29UIAccessibilityIdentificationP", "showTrace"]
+- !private ["So29UIAccessibilityIdentificationP", "traceColor"]
+- !private ["So29UIAccessibilityIdentificationP", "traceThickness"]
+- !private ["So29UIAccessibilityIdentificationP", "updatePosition"]
+- !private ["So12UIAppearanceP", "doorColor"]
+- !private ["So12UIAppearanceP", "doorThickness"]
+- !private ["So12UIAppearanceP", "drawLocation"]
+- !private ["So12UIAppearanceP", "locationBorderColor"]
+- !private ["So12UIAppearanceP", "locationBorderThickness"]
+- !private ["So12UIAppearanceP", "rotateOnPositionUpdate"]
+- !private ["So12UIAppearanceP", "showTrace"]
+- !private ["So12UIAppearanceP", "traceColor"]
+- !private ["So12UIAppearanceP", "traceThickness"]
+- !private ["So12UIAppearanceP", "updatePosition"]
+- ["So21UIAppearanceContainerP", "EILIndoorLocationManager"]
+- !private ["So21UIAppearanceContainerP", "EILRequestFetchLocation"]
+- !private ["So21UIAppearanceContainerP", "ESTConfig"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "doorColor"]
+- !private ["So21UIAppearanceContainerP", "doorThickness"]
+- !private ["So21UIAppearanceContainerP", "drawLocation"]
+- ["So21UIAppearanceContainerP", "indoorLocationManager"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "location"]
+- !private ["So21UIAppearanceContainerP", "locationBorderColor"]
+- !private ["So21UIAppearanceContainerP", "locationBorderThickness"]
+- !private ["So21UIAppearanceContainerP", "locationManager"]
+- !private ["So21UIAppearanceContainerP", "locationView"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "rotateOnPositionUpdate"]
+- !private ["So21UIAppearanceContainerP", "showTrace"]
+- !private ["So21UIAppearanceContainerP", "traceColor"]
+- !private ["So21UIAppearanceContainerP", "traceThickness"]
+- !private ["So21UIAppearanceContainerP", "updatePosition"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So7UIColorC", "green"]
+- !private ["So7UIColorC", "red"]
+- !private ["So7UIColorC", "yellow"]
+- ["So18UIContentContainerP", "EILIndoorLocationManager"]
+- !private ["So18UIContentContainerP", "EILRequestFetchLocation"]
+- !private ["So18UIContentContainerP", "ESTConfig"]
+- !private ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "UIColor"]
+- ["So18UIContentContainerP", "indoorLocationManager"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "location"]
+- !private ["So18UIContentContainerP", "locationManager"]
+- !private ["So18UIContentContainerP", "locationView"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So17UICoordinateSpaceP", "doorColor"]
+- !private ["So17UICoordinateSpaceP", "doorThickness"]
+- !private ["So17UICoordinateSpaceP", "drawLocation"]
+- !private ["So17UICoordinateSpaceP", "locationBorderColor"]
+- !private ["So17UICoordinateSpaceP", "locationBorderThickness"]
+- !private ["So17UICoordinateSpaceP", "rotateOnPositionUpdate"]
+- !private ["So17UICoordinateSpaceP", "showTrace"]
+- !private ["So17UICoordinateSpaceP", "traceColor"]
+- !private ["So17UICoordinateSpaceP", "traceThickness"]
+- !private ["So17UICoordinateSpaceP", "updatePosition"]
+- !private ["So13UIDynamicItemP", "doorColor"]
+- !private ["So13UIDynamicItemP", "doorThickness"]
+- !private ["So13UIDynamicItemP", "drawLocation"]
+- !private ["So13UIDynamicItemP", "locationBorderColor"]
+- !private ["So13UIDynamicItemP", "locationBorderThickness"]
+- !private ["So13UIDynamicItemP", "rotateOnPositionUpdate"]
+- !private ["So13UIDynamicItemP", "showTrace"]
+- !private ["So13UIDynamicItemP", "traceColor"]
+- !private ["So13UIDynamicItemP", "traceThickness"]
+- !private ["So13UIDynamicItemP", "updatePosition"]
+- ["So18UIFocusEnvironmentP", "EILIndoorLocationManager"]
+- !private ["So18UIFocusEnvironmentP", "EILRequestFetchLocation"]
+- !private ["So18UIFocusEnvironmentP", "ESTConfig"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "doorColor"]
+- !private ["So18UIFocusEnvironmentP", "doorThickness"]
+- !private ["So18UIFocusEnvironmentP", "drawLocation"]
+- ["So18UIFocusEnvironmentP", "indoorLocationManager"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "location"]
+- !private ["So18UIFocusEnvironmentP", "locationBorderColor"]
+- !private ["So18UIFocusEnvironmentP", "locationBorderThickness"]
+- !private ["So18UIFocusEnvironmentP", "locationManager"]
+- !private ["So18UIFocusEnvironmentP", "locationView"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "rotateOnPositionUpdate"]
+- !private ["So18UIFocusEnvironmentP", "showTrace"]
+- !private ["So18UIFocusEnvironmentP", "traceColor"]
+- !private ["So18UIFocusEnvironmentP", "traceThickness"]
+- !private ["So18UIFocusEnvironmentP", "updatePosition"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "doorColor"]
+- !private ["So11UIFocusItemP", "doorThickness"]
+- !private ["So11UIFocusItemP", "drawLocation"]
+- !private ["So11UIFocusItemP", "locationBorderColor"]
+- !private ["So11UIFocusItemP", "locationBorderThickness"]
+- !private ["So11UIFocusItemP", "rotateOnPositionUpdate"]
+- !private ["So11UIFocusItemP", "showTrace"]
+- !private ["So11UIFocusItemP", "traceColor"]
+- !private ["So11UIFocusItemP", "traceThickness"]
+- !private ["So11UIFocusItemP", "updatePosition"]
+- ["So30UIPasteConfigurationSupportingP", "EILIndoorLocationManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "EILRequestFetchLocation"]
+- !private ["So30UIPasteConfigurationSupportingP", "ESTConfig"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "doorColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "doorThickness"]
+- !private ["So30UIPasteConfigurationSupportingP", "drawLocation"]
+- ["So30UIPasteConfigurationSupportingP", "indoorLocationManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "location"]
+- !private ["So30UIPasteConfigurationSupportingP", "locationBorderColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "locationBorderThickness"]
+- !private ["So30UIPasteConfigurationSupportingP", "locationManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "locationView"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "rotateOnPositionUpdate"]
+- !private ["So30UIPasteConfigurationSupportingP", "showTrace"]
+- !private ["So30UIPasteConfigurationSupportingP", "traceColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "traceThickness"]
+- !private ["So30UIPasteConfigurationSupportingP", "updatePosition"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "EILIndoorLocationManager"]
+- ["So11UIResponderC", "EILIndoorLocationView"]
+- ["So11UIResponderC", "EILLocation"]
+- ["So11UIResponderC", "EILOrientedPoint"]
+- ["So11UIResponderC", "EILPositionAccuracy"]
+- !private ["So11UIResponderC", "EILRequestFetchLocation"]
+- !private ["So11UIResponderC", "ESTConfig"]
+- !private ["So11UIResponderC", "NSError"]
+- !private ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "doorColor"]
+- !private ["So11UIResponderC", "doorThickness"]
+- !private ["So11UIResponderC", "drawLocation"]
+- ["So11UIResponderC", "indoorLocationManager"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "location"]
+- !private ["So11UIResponderC", "locationBorderColor"]
+- !private ["So11UIResponderC", "locationBorderThickness"]
+- ["So11UIResponderC", "locationManager"]
+- ["So11UIResponderC", "locationView"]
+- ["So11UIResponderC", "positionImage"]
+- ["So11UIResponderC", "positionView"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "rotateOnPositionUpdate"]
+- !private ["So11UIResponderC", "showTrace"]
+- !private ["So11UIResponderC", "traceColor"]
+- !private ["So11UIResponderC", "traceThickness"]
+- !private ["So11UIResponderC", "updatePosition"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "EILIndoorLocationManager"]
+- !private ["So30UIResponderStandardEditActionsP", "EILRequestFetchLocation"]
+- !private ["So30UIResponderStandardEditActionsP", "ESTConfig"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "doorColor"]
+- !private ["So30UIResponderStandardEditActionsP", "doorThickness"]
+- !private ["So30UIResponderStandardEditActionsP", "drawLocation"]
+- ["So30UIResponderStandardEditActionsP", "indoorLocationManager"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "location"]
+- !private ["So30UIResponderStandardEditActionsP", "locationBorderColor"]
+- !private ["So30UIResponderStandardEditActionsP", "locationBorderThickness"]
+- !private ["So30UIResponderStandardEditActionsP", "locationManager"]
+- !private ["So30UIResponderStandardEditActionsP", "locationView"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "rotateOnPositionUpdate"]
+- !private ["So30UIResponderStandardEditActionsP", "showTrace"]
+- !private ["So30UIResponderStandardEditActionsP", "traceColor"]
+- !private ["So30UIResponderStandardEditActionsP", "traceThickness"]
+- !private ["So30UIResponderStandardEditActionsP", "updatePosition"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So16UIStateRestoringP", "EILIndoorLocationManager"]
+- !private ["So16UIStateRestoringP", "EILRequestFetchLocation"]
+- !private ["So16UIStateRestoringP", "ESTConfig"]
+- !private ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "UIColor"]
+- ["So16UIStateRestoringP", "indoorLocationManager"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "location"]
+- !private ["So16UIStateRestoringP", "locationManager"]
+- !private ["So16UIStateRestoringP", "locationView"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- ["So18UITraitEnvironmentP", "EILIndoorLocationManager"]
+- !private ["So18UITraitEnvironmentP", "EILRequestFetchLocation"]
+- !private ["So18UITraitEnvironmentP", "ESTConfig"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "doorColor"]
+- !private ["So18UITraitEnvironmentP", "doorThickness"]
+- !private ["So18UITraitEnvironmentP", "drawLocation"]
+- ["So18UITraitEnvironmentP", "indoorLocationManager"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "location"]
+- !private ["So18UITraitEnvironmentP", "locationBorderColor"]
+- !private ["So18UITraitEnvironmentP", "locationBorderThickness"]
+- !private ["So18UITraitEnvironmentP", "locationManager"]
+- !private ["So18UITraitEnvironmentP", "locationView"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "rotateOnPositionUpdate"]
+- !private ["So18UITraitEnvironmentP", "showTrace"]
+- !private ["So18UITraitEnvironmentP", "traceColor"]
+- !private ["So18UITraitEnvironmentP", "traceThickness"]
+- !private ["So18UITraitEnvironmentP", "updatePosition"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "doorColor"]
+- !private ["So6UIViewC", "doorThickness"]
+- !private ["So6UIViewC", "drawLocation"]
+- !private ["So6UIViewC", "locationBorderColor"]
+- !private ["So6UIViewC", "locationBorderThickness"]
+- !private ["So6UIViewC", "rotateOnPositionUpdate"]
+- !private ["So6UIViewC", "showTrace"]
+- !private ["So6UIViewC", "traceColor"]
+- !private ["So6UIViewC", "traceThickness"]
+- !private ["So6UIViewC", "updatePosition"]
+- ["So16UIViewControllerC", "EILIndoorLocationManager"]
+- ["So16UIViewControllerC", "EILIndoorLocationView"]
+- ["So16UIViewControllerC", "EILLocation"]
+- ["So16UIViewControllerC", "EILOrientedPoint"]
+- ["So16UIViewControllerC", "EILPositionAccuracy"]
+- !private ["So16UIViewControllerC", "EILRequestFetchLocation"]
+- !private ["So16UIViewControllerC", "ESTConfig"]
+- !private ["So16UIViewControllerC", "NSError"]
+- !private ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIColor"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UIView"]
+- ["So16UIViewControllerC", "indoorLocationManager"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "location"]
+- ["So16UIViewControllerC", "locationManager"]
+- ["So16UIViewControllerC", "locationView"]
+- ["So16UIViewControllerC", "positionImage"]
+- ["So16UIViewControllerC", "positionView"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", ""]
+- ["11HelloIndoor14ViewControllerC", "EILIndoorLocationManager"]
+- ["11HelloIndoor14ViewControllerC", "EILIndoorLocationView"]
+- ["11HelloIndoor14ViewControllerC", "EILLocation"]
+- ["11HelloIndoor14ViewControllerC", "EILOrientedPoint"]
+- ["11HelloIndoor14ViewControllerC", "EILPositionAccuracy"]
+- !private ["11HelloIndoor14ViewControllerC", "EILRequestFetchLocation"]
+- !private ["11HelloIndoor14ViewControllerC", "ESTConfig"]
+- !private ["11HelloIndoor14ViewControllerC", "NSError"]
+- !private ["11HelloIndoor14ViewControllerC", "String"]
+- !private ["11HelloIndoor14ViewControllerC", "UIColor"]
+- ["11HelloIndoor14ViewControllerC", "UIImageView"]
+- ["11HelloIndoor14ViewControllerC", "UIView"]
+- ["11HelloIndoor14ViewControllerC", "deinit"]
+- ["11HelloIndoor14ViewControllerC", "indoorLocationManager"]
+- ["11HelloIndoor14ViewControllerC", "init"]
+- ["11HelloIndoor14ViewControllerC", "location"]
+- ["11HelloIndoor14ViewControllerC", "locationManager"]
+- ["11HelloIndoor14ViewControllerC", "locationView"]
+- ["11HelloIndoor14ViewControllerC", "positionImage"]
+- ["11HelloIndoor14ViewControllerC", "positionView"]
+- !private ["11HelloIndoor14ViewControllerC", "print"]
+- ["11HelloIndoor14ViewControllerC", "viewDidLoad"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "doorColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "doorThickness"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "drawLocation"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "locationBorderColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "locationBorderThickness"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "rotateOnPositionUpdate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "showTrace"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "traceColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "traceThickness"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "updatePosition"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "green"]
+- !private ["s26_ExpressibleByColorLiteralP", "red"]
+- !private ["s26_ExpressibleByColorLiteralP", "yellow"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "EILIndoorLocationManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EILRequestFetchLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ESTConfig"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doorColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doorThickness"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "drawLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "green"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "indoorLocationManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "location"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locationBorderColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locationBorderThickness"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locationManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locationView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "orientation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "red"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rotateOnPositionUpdate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupAppID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showTrace"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startPositionUpdates"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "traceColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "traceThickness"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updatePosition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "x"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "y"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "yellow"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "So24EILIndoorLocationManagerC"
+- "So32EILIndoorLocationManagerDelegateP"
+- !private "So21EILIndoorLocationViewC"
+- !private "So16EILOrientedPointC"
+- !private "So8EILPointC"
+- "SC19EILPositionAccuracyO"
+- !private "So23EILRequestFetchLocationC"
+- !private "So9ESTConfigC"
+- !private "So14ESTRequestBaseC"
+- !private "So17ESTRequestGetJSONC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So27NSURLConnectionDataDelegateP"
+- !private "So23NSURLConnectionDelegateP"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "11HelloIndoor14ViewControllerC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingGPIOConfigPort0.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationGPIOConfigPort0.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceFilterBeaconV1.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingGPIOConfigPort1.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationGPIOConfigPort1.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTEddystoneEID.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceSettingsAdvertiserEddystoneEID.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingsEddystoneEID.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTEddystoneFilterEID.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingIBeaconMotionUUID.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationIBeaconMotionUUID.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingIBeaconProximityUUID.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableOperationIBeaconProximityUUID.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationIBeaconProximityUUID.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTEddystoneUID.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceSettingsAdvertiserEddystoneUID.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingsEddystoneUID.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTEddystoneFilterUID.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTGenericAdvertiserID.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/EstimoteSDK.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILIndoorSDK.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTEddystoneURL.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingNearableEddystoneURL.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableOperationEddystoneURL.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceSettingsAdvertiserEddystoneURL.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingsEddystoneURL.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTEddystoneFilterURL.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTEddystoneTLM.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceSettingsAdvertiserEddystoneTLM.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingsEddystoneTLM.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceSettingsAdvertiserEstimoteTLM.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingsEstimoteTLM.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestGetJSON.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestPostJSON.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestPutJSON.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTelemetryNotificationGPIO.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTelemetryInfoGPIO.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingsGPIO.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTFirmwareInfoV4VO.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableVO.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableFirmwareVO.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBaseVO.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableFirmwareUpdateVO.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconVO.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTFirmwareInfoVO.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTAnalyticsEventVO.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEddystoneURLData.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEddystoneURLData.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNotificationGPIOData.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingGenericAdvertiserData.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationGenericAdvertiserData.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTGPIOPortsData.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingGPIOPortsData.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationGPIOPortsData.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestBeaconMac.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceSettingsAdvertiserGeneric.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTimePeriod.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingPowerScheduledAdvertisingPeriod.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationPowerScheduledAdvertisingPeriod.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEddystoneUIDNamespace.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEddystoneUIDNamespace.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDevice.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestRegisterDevice.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingsEddystoneConfigurationService.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEddystoneUIDInstance.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEddystoneUIDInstance.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTFeaturesetBackgroundMode.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingIBeaconNonStrictMode.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTCloudOperationIBeaconNonStrictMode.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingDeviceInfoDevelopmentMode.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTCloudOperationDeviceInfoDevelopmentMode.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingPowerBatteryVoltage.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationPowerBatteryVoltage.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingPowerBatteryPercentage.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationPowerBatteryPercentage.h"
+- "/Users/shobhavj/Documents/HelloIndoor/HelloIndoor/ObjCBridge.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEddystoneEIDEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEddystoneEIDEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingIBeaconSecureUUIDEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationIBeaconSecureUUIDEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingIBeaconMotionUUIDEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationIBeaconMotionUUIDEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEddystoneUIDEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEddystoneUIDEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEddystoneURLEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEddystoneURLEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEddystoneTLMEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEddystoneTLMEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEstimoteTLMEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEstimoteTLMEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEddystoneConfigurationServiceEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingPowerSmartPowerModeEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationPowerSmartPowerModeEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingPowerScheduledAdvertisingEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationPowerScheduledAdvertisingEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingPowerMotionOnlyBroadcastingEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationPowerMotionOnlyBroadcastingEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingIBeaconEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationIBeaconEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingGPIONotificationEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationGPIONotificationEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingSensorsMotionNotificationEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationSensorsMotionNotificationEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEstimoteLocationEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEstimoteLocationEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingPowerDarkToSleepEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationPowerDarkToSleepEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingPowerFlipToSleepEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationPowerFlipToSleepEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingGenericAdvertiserEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationGenericAdvertiserEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingShakeToConnectEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationShakeToConnectEnable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceNearable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTPeripheralNearable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceFilterNearable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceConnectable.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRule.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableRule.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTemperatureRule.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDateRule.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTOrientationRule.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTMotionRule.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTProximityRule.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceSchedule.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingDeviceInfoIndoorLocationName.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableOperationName.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingDeviceInfoName.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTCloudOperationDeviceInfoName.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingNearableBroadcastingScheme.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableOperationBroadcastingScheme.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingDeviceInfoUTCTime.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationDeviceInfoUTCTime.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTime.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingPowerBatteryLifetime.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTCloudOperationPowerBatteryLifetime.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingDeviceInfoUptime.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationDeviceInfoUptime.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILIndoorLocationScene.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTMonitoringZone.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTEddystone.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableOperationHardware.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTelemetryNotificationPressure.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTelemetryInfoPressure.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingSensorsPressure.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationSensorsPressure.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTelemetryNotificationTemperature.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTelemetryInfoTemperature.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingSensorsTemperature.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationSensorsTemperature.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingBase.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestBase.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestV2DevicesUpdate.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconManagerDelegate.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSecureBeaconManagerDelegate.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestDelete.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingReadWrite.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTGPIOConfig.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTConfig.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconUpdateConfig.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTFeaturesetEstimoteMonitoring.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTMesh.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestAnalyticsTrack.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTPeripheral.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceSettingsGeneral.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEddystoneEIDInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEddystoneEIDInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEddystoneUIDInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEddystoneUIDInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEddystoneURLInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEddystoneURLInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEddystoneTLMInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEddystoneTLMInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEstimoteTLMInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEstimoteTLMInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingNearableInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableOperationNearableInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingIBeaconInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationIBeaconInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEstimoteLocationInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEstimoteLocationInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingGenericAdvertiserInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationGenericAdvertiserInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingConnectivityInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationConnectivityInterval.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingProtocol.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTCloudSettingProtocol.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceSettingProtocol.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceNotificationProtocol.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTelemetryNotificationProtocol.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTCloudOperationProtocol.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableOperationProtocol.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationProtocol.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTEddystoneFilterURLDomain.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceSettingsAdvertiserIBeacon.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingsIBeacon.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeacon.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILPositionedBeacon.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBluetoothBeacon.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceLocationBeacon.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceFilterLocationBeacon.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingDeviceInfoHardwareVersion.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationDeviceInfoHardwareVersion.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingDeviceInfoFirmwareVersion.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTCloudOperationDeviceInfoFirmwareVersion.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableOperationApplicationVersion.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingDeviceInfoApplicationVersion.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationDeviceInfoApplicationVersion.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingDeviceInfoBootloaderVersion.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationDeviceInfoBootloaderVersion.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILLocation.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestAssignGPSLocation.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILRequestAddLocation.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceSettingsAdvertiserEstimoteLocation.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingsEstimoteLocation.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILRequestRemoveLocation.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILRequestFetchLocation.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceGeoLocation.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingDeviceInfoGeoLocation.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTCloudOperationDeviceInfoGeoLocation.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceIndoorLocation.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILRequestModifyLocation.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingOperation.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTLocationBeaconBulkUpdateConfiguration.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceSettingsCollection.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconConnection.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNotificationMotion.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTelemetryNotificationMotion.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTelemetryInfoMotion.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingsDeviceInfo.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceUpdateInfo.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconUpdateInfo.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTelemetryInfo.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILLocationBuilder.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTCloudManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTStorageManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSimulatedNearableManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTEddystoneManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTMonitoringManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTMeshManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSecureBeaconManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILIndoorLocationManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILBackgroundIndoorLocationManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTriggerManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTAnalyticsManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableSettingsManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconSettingsManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTUtilityManager.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTrigger.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTLogger.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingDeviceInfoIndoorLocationIdentifier.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTCloudOperationDeviceInfoIndoorLocationIdentifier.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingIBeaconSecureUUIDPeriodScaler.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationIBeaconSecureUUIDPeriodScaler.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestV3GetDeviceOwner.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceSettingsAdvertiser.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBulkUpdater.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTLocationBeaconBulkUpdater.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTelemetryNotificationMagnetometer.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTelemetryInfoMagnetometer.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceFilter.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTEddystoneFilter.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNotificationTransporter.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEddystoneEIDPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEddystoneEIDPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEddystoneUIDPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEddystoneUIDPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEddystoneURLPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEddystoneURLPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEddystoneTLMPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEddystoneTLMPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEstimoteTLMPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEstimoteTLMPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingNearablePower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableOperationNearablePower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingIBeaconPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationIBeaconPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingEstimoteLocationPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationEstimoteLocationPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingGenericAdvertiserPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationGenericAdvertiserPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingsPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingConnectivityPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationConnectivityPower.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingIBeaconMajor.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableOperationIBeaconMajor.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationIBeaconMajor.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestBeaconColor.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingDeviceInfoColor.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTCloudOperationDeviceInfoColor.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingIBeaconMinor.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableOperationIBeaconMinor.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationIBeaconMinor.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestV2GetDevices.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestGetNearables.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestV3GetFirmwares.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingDeviceInfoTags.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTCloudOperationDeviceInfoTags.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceSettings.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestCancelPendingSettings.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestGetPendingSettings.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestGetBeaconsPublicDetails.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceDetails.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestV2GetDeviceDetails.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestGetDeviceDetails.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestGetBeaconsDetails.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestGetBeacons.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILRequestFetchPublicLocations.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILRequestFetchLocations.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDefinitions.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableDefinitions.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconDefinitions.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingsSensors.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTelemetryNotificationSystemStatus.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTelemetryInfoSystemStatus.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILLocationLinearObject.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTelemetryNotificationAmbientLight.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTTelemetryInfoAmbientLight.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingSensorsAmbientLight.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationSensorsAmbientLight.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILOrientedLineSegment.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTEddystoneAttachment.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILPoint.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILOrientedPoint.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTGPIOPort.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceStatusReport.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILIndoorLocationView.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteIndoorSDK/EILPositionView.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceShadow.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingPowerMotionOnlyBroadcastingDelay.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTBeaconOperationPowerMotionOnlyBroadcastingDelay.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingReadOnly.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTNearableOperationMotionOnly.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTRequestGetSettingsHistory.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTPeripheralTypeUtility.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTDeviceSettingsAdvertiserConnectivity.h"
+- "/Users/shobhavj/Documents/HelloIndoor/Pods/Headers/Public/EstimoteSDK/EstimoteSDK/ESTSettingsConnectivity.h"
+interface-hash: "0428e5a57c5093efa3b8546db2af7d9e"
